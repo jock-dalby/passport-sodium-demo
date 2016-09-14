@@ -18,3 +18,7 @@ Email is found, password is hashed and compared for a match
   - If password does not match, stay on page with error message/s
 After password match redirect user to homepage/ news feed etc... (first logged in route)
 User is now able to navigate to any of the logged in pages
+
+
+PSUEDO TESTS
+Scenario: Unauthenticated user goes to '/' is redirected to login page with register option
