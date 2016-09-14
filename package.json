@@ -6,8 +6,9 @@
   "scripts": {
     "knex": "knex",
     "postinstall": "knex migrate:latest",
+    "test": "chimp --watch",
     "server": "node-inspector & nodemon server.js --debug",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "EDA",
   "license": "ISC",
@@ -30,7 +31,8 @@
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
     "pg": "^6.1.0",
-    "sodium": "^1.1.12"
+    "sodium": "^1.1.12",
+    "sqlite3": "^3.1.4"
   },
   "devDependencies": {
     "eslint": "^3.3.1",
